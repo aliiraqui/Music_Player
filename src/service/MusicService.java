@@ -12,4 +12,8 @@ public class MusicService {
 
         userDAO.addUser(user);
     }
+
+    public boolean loginUser(String userName, String password) {
+        return userDAO.loginUser(userName, password);
+    }
 }
